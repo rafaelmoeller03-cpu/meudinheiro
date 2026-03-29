@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Politica de Privacidade - Meu Dinheiro</title>
+  <style>
+    :root {
+      --bg: #181c24;
+      --card: #0d1322;
+      --line: #00c2ff;
+      --line-soft: rgba(0, 194, 255, 0.35);
+      --text: #f5f8ff;
+      --muted: #aab7d3;
+      --ok: #1dff9a;
+      --warn: #ff9800;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Roboto, "Segoe UI", Arial, sans-serif;
+      background: radial-gradient(circle at top, #1f2a44 0%, var(--bg) 42%, #0a0f1f 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .wrap {
+      width: min(980px, 92vw);
+      margin: 24px auto 40px;
+    }
+
+    .hero {
+      border: 1.5px solid var(--line);
+      border-radius: 18px;
+      background: linear-gradient(160deg, #0e1730 0%, #0b1222 100%);
+      padding: 22px;
+      box-shadow: 0 0 0 1px rgba(0,0,0,.2), 0 14px 40px rgba(0, 194, 255, 0.15);
+    }
+
+    .chip {
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--line-soft);
+      color: #84ddff;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .3px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 10px 0 6px;
+      font-size: clamp(24px, 3.6vw, 38px);
+      line-height: 1.2;
+    }
+
+    .sub {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin-top: 14px;
+    }
+
+    .card {
+      border: 1px solid var(--line-soft);
+      border-radius: 14px;
+      background: var(--card);
+      padding: 16px;
+    }
+
+    h2 {
+      margin: 0 0 8px;
+      font-size: 19px;
+      color: #dff6ff;
+    }
+
+    p { margin: 0 0 10px; color: var(--muted); }
+
+    ul { margin: 0; padding-left: 18px; }
+    li { margin: 6px 0; color: var(--muted); }
+
+    strong { color: var(--text); }
+
+    .notice {
+      border-left: 4px solid var(--warn);
+      background: rgba(255, 152, 0, 0.1);
+      padding: 12px;
+      border-radius: 10px;
+      color: #ffd8a5;
+      margin-top: 10px;
+    }
+
+    .ok {
+      border-left-color: var(--ok);
+      background: rgba(29, 255, 154, 0.08);
+      color: #b6ffd9;
+    }
+
+    .footer {
+      margin-top: 14px;
+      color: #8ea5c8;
+      font-size: 13px;
+    }
+
+    a { color: var(--line); text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <span class="chip">Meu Dinheiro</span>
+      <h1>Politica de Privacidade</h1>
+      <p class="sub">Ultima atualizacao: 29 de marco de 2026</p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>1. Escopo desta politica</h2>
+        <p>Esta Politica de Privacidade descreve como o app <strong>Meu Dinheiro</strong> trata dados quando voce usa os recursos gratuitos e Premium.</p>
+        <p>Contato de suporte e privacidade: <strong>suportemeudinheiro@gmail.com</strong>.</p>
+      </article>
+
+      <article class="card">
+        <h2>2. Dados tratados pelo app</h2>
+        <p>O app pode tratar, no proprio dispositivo, os dados que voce registra para funcionamento das funcionalidades:</p>
+        <ul>
+          <li>movimentacoes financeiras (entradas, saidas, valores, datas, categorias, anotacoes e tipo de pagamento);</li>
+          <li>saldo atual e historico financeiro;</li>
+          <li>metas mensais, resumo financeiro, projecao futura e diagnostico;</li>
+          <li>contas/dividas parceladas e parcelas futuras;</li>
+          <li>desafios financeiros, status e progresso;</li>
+          <li>status da conta Premium (plano, token/identificador de compra quando disponivel);</li>
+          <li>contadores de uso do plano gratuito (ex.: visualizacoes e compartilhamentos free consumidos);</li>
+          <li>registro de aceite de Termos e Politica.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>3. Onde os dados ficam armazenados</h2>
+        <p>Os dados financeiros do app sao armazenados localmente no dispositivo, em banco local (Hive), para operacao dos recursos.</p>
+        <p>O app nao exige criacao de conta para uso basico e nao depende de cadastro pessoal para registrar suas movimentacoes locais.</p>
+      </article>
+
+      <article class="card">
+        <h2>4. Integracoes e terceiros</h2>
+        <ul>
+          <li><strong>Google Play Billing:</strong> usado para assinatura Premium e restauracao de compras. Dados de pagamento/cartao sao processados pela Google Play, nao pelo app.</li>
+          <li><strong>Compartilhamento:</strong> quando voce usa o recurso de compartilhar, o conteudo selecionado e enviado para o app de destino escolhido por voce (ex.: WhatsApp, Instagram etc.).</li>
+          <li><strong>E-mail de suporte:</strong> ao tocar em suporte, o app abre o cliente de e-mail do aparelho para envio por iniciativa do usuario.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>5. Finalidades de uso dos dados</h2>
+        <ul>
+          <li>mostrar saldo, historico, categorias e indicadores financeiros;</li>
+          <li>calcular projecoes, diagnosticos e desafios com base nos dados registrados;</li>
+          <li>aplicar regras do plano gratuito e Premium;</li>
+          <li>processar compra/restauracao de assinatura via Google Play;</li>
+          <li>fornecer suporte quando solicitado pelo usuario.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>6. Retencao e exclusao</h2>
+        <p>Os dados locais permanecem no dispositivo enquanto voce mantiver o app/dados instalados.</p>
+        <p>Se o app ou os dados locais forem removidos do aparelho, as informacoes locais podem ser perdidas.</p>
+        <p>Contadores do plano gratuito seguem a logica local do app e nao sao redefinidos por simples exclusao de itens internos.</p>
+      </article>
+
+      <article class="card">
+        <h2>7. Direitos do titular (LGPD)</h2>
+        <p>Voce pode solicitar informacoes, esclarecimentos e suporte sobre tratamento de dados pelo e-mail <strong>suportemeudinheiro@gmail.com</strong>.</p>
+        <p>Quando aplicavel, pedidos relacionados a compras e pagamentos devem seguir tambem os canais oficiais da Google Play.</p>
+      </article>
+
+      <article class="card">
+        <h2>8. Seguranca</h2>
+        <p>Adotamos medidas tecnicas razoaveis para proteger os dados sob nosso controle no contexto do app. Nenhum sistema e 100% imune a falhas, e por isso recomendamos bloqueio de tela e boas praticas de seguranca no aparelho.</p>
+      </article>
+
+      <article class="card">
+        <h2>9. Assinatura, cancelamento e reembolso</h2>
+        <p>Assinaturas Premium sao processadas pela <strong>Google Play</strong>, com renovacao conforme regras da loja e plano contratado.</p>
+        <p>Cancelamento e gerenciamento da assinatura devem ser feitos na conta Google Play do usuario.</p>
+        <div class="notice">
+          <strong>Reembolso:</strong> pedidos de reembolso de assinatura seguem as politicas da Google Play e a legislacao aplicavel. O app nao processa cartao, nao cobra diretamente e nao realiza estorno fora dos fluxos oficiais da loja.
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>10. Alteracoes desta politica</h2>
+        <p>Esta politica pode ser atualizada para refletir mudancas legais, tecnicas ou de produto. A versao vigente sera identificada pela data de atualizacao.</p>
+      </article>
+    </section>
+
+    <p class="footer">Suporte oficial: suportemeudinheiro@gmail.com | Documento complementar: <a href="termos-de-uso.html">Termos de Uso</a></p>
+  </main>
+</body>
+</html>
