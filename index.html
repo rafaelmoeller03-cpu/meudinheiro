@@ -160,7 +160,7 @@
     <section class="hero">
       <span class="chip">Meu Dinheiro</span>
       <h1>Política de Privacidade e Termos de Uso</h1>
-      <p class="sub">Última atualização: 01 de abril de 2026</p>
+      <p class="sub">Última atualização: 07 de abril de 2026</p>
       <p class="sub">Suporte oficial: suportemeudinheiro@gmail.com</p>
       <p class="sub">Página oficial do documento: <a href="https://rafaelmoeller03-cpu.github.io/meudinheiro/" target="_blank" rel="noopener noreferrer">https://rafaelmoeller03-cpu.github.io/meudinheiro/</a></p>
     </section>
@@ -179,9 +179,10 @@
           <li><strong>Dados de organização financeira:</strong> saldo atual, histórico, resumos, metas financeiras, projeção futura e diagnóstico financeiro.</li>
           <li><strong>Dados de metas e objetivos:</strong> metas mensais, metas por categoria, metas de economia, metas de receita e objetivos financeiros de longo prazo.</li>
           <li><strong>Dados de contas parceladas:</strong> descrição da conta/dívida, valor, quantidade de parcelas, vencimentos e progresso de pagamento.</li>
-          <li><strong>Dados de desafios:</strong> desafios ativos, histórico de conclusão/falha, progresso e regras de elegibilidade.</li>
+          <li><strong>Dados de desafios:</strong> desafios ativos, histórico de conclusão/falha, progresso, regras de elegibilidade e elementos de gamificação.</li>
           <li><strong>Dados de uso do plano:</strong> status Premium, aceite dos termos, contadores de uso do plano gratuito, eventos de bloqueio/liberação.</li>
           <li><strong>Dados técnicos de compra:</strong> identificadores técnicos de assinatura recebidos da Google Play para validação de acesso Premium.</li>
+          <li><strong>Dados de backup:</strong> quando você usa exportação de backup, o app gera um arquivo JSON contendo dados locais para posterior restauração.</li>
         </ul>
       </article>
 
@@ -189,6 +190,9 @@
         <h3>2. Onde os dados ficam armazenados</h3>
         <p>Os dados do app são armazenados localmente no dispositivo, em banco local (Hive), para cálculo e exibição das funcionalidades financeiras.</p>
         <p>O app não exige criação de conta própria para uso local das funções principais. Quando houver integração com loja (assinatura), a identificação da compra é tratada no ecossistema Google Play.</p>
+        <div class="notice ok">
+          Recursos como onboarding, integridade dos dados, compartilhamento e simuladores usam os dados locais já existentes no app.
+        </div>
       </article>
 
       <article class="card">
@@ -197,10 +201,11 @@
           <li>exibir painel financeiro, extrato/histórico e saldos;</li>
           <li>gerar resumo financeiro, gráficos e comparativos de categorias;</li>
           <li>calcular metas financeiras e progresso de objetivos;</li>
-          <li>calcular projeção futura, incluindo tendência por período e estimativas;</li>
+          <li>calcular projeção futura, incluindo tendência por período, estimativas e simulações “E se”;</li>
           <li>executar desafios financeiros e atualizar progresso automaticamente;</li>
           <li>controlar limites do plano gratuito e acesso a recursos Premium;</li>
           <li>permitir compartilhamento de dados financeiros no formato escolhido por você;</li>
+          <li>permitir exportação e restauração de backup local por arquivo JSON;</li>
           <li>executar compra e restauração de assinatura via Google Play Billing.</li>
         </ul>
       </article>
@@ -211,8 +216,11 @@
           <li><strong>Histórico/Extrato:</strong> pode exibir entradas, saídas e saldo acumulado por período, com filtros de categoria e data.</li>
           <li><strong>Resumo Financeiro:</strong> pode apresentar visão por categoria, inclusive gráficos (como pizza) quando houver dados suficientes.</li>
           <li><strong>Metas Financeiras:</strong> permite criar/editar/excluir metas e objetivos, com cálculo de progresso e estimativa temporal.</li>
-          <li><strong>Projeção Futura:</strong> utiliza os dados já lançados para gerar estimativas (não é recomendação financeira personalizada).</li>
-          <li><strong>Compartilhar:</strong> envia apenas o conteúdo escolhido por você para o app de destino selecionado.</li>
+          <li><strong>Projeção Futura:</strong> utiliza os dados já lançados para gerar estimativas e inclui simulador “E se” para cenários de entrada extra e redução de gastos.</li>
+          <li><strong>Compartilhar:</strong> gera relatório visual (imagem com layout) e envia para o app escolhido; em caso de falha de imagem, pode usar texto como contingência.</li>
+          <li><strong>Templates de compartilhamento:</strong> inclui modelos prontos (Mensal, Semanal, Meta e Dívida) e modo personalizado.</li>
+          <li><strong>Onboarding inicial:</strong> pode exibir passos guiados no primeiro uso (meta, lançamento e desafios).</li>
+          <li><strong>Integridade dos dados:</strong> disponibiliza checagem local em modo somente leitura para identificar inconsistências de formato.</li>
           <li><strong>Avaliação do app:</strong> pode haver convite eventual para avaliação na Play Store, sem repetição abusiva.</li>
         </ul>
       </article>
@@ -228,6 +236,7 @@
           <li><strong>Google Play Billing:</strong> assinatura, renovação, cancelamento e restauração seguem o fluxo da Google Play. Dados de cartão e pagamento não são processados pelo app.</li>
           <li><strong>Apps de compartilhamento:</strong> ao compartilhar conteúdo, o destinatário passa a ser tratado pelo app/plataforma escolhida por você.</li>
           <li><strong>Cliente de e-mail:</strong> ao tocar em suporte, o app abre o aplicativo de e-mail do aparelho.</li>
+          <li><strong>Armazenamento em nuvem do usuário:</strong> se você exportar backup e salvar em Drive/e-mail/outro serviço, o tratamento posterior desse arquivo segue a política da plataforma escolhida por você.</li>
         </ul>
       </article>
 
@@ -249,6 +258,7 @@
       <article class="card">
         <h3>9. Segurança</h3>
         <p>São adotadas medidas técnicas razoáveis para o contexto do app. Ainda assim, nenhum sistema é totalmente imune. Recomenda-se uso de bloqueio de tela, senha e boas práticas de segurança no dispositivo.</p>
+        <p>Backups exportados em arquivo devem ser protegidos por você em local seguro, pois podem conter dados financeiros do app.</p>
       </article>
 
       <article class="card important">
@@ -302,7 +312,8 @@
           <li>manter segurança do dispositivo e da conta Google;</li>
           <li>usar o app de forma lícita, sem fraude, sem engenharia reversa e sem abuso;</li>
           <li>respeitar direitos autorais e propriedade intelectual do app;</li>
-          <li>verificar periodicamente dados lançados, especialmente antes de decisões financeiras relevantes.</li>
+          <li>verificar periodicamente dados lançados, especialmente antes de decisões financeiras relevantes;</li>
+          <li>manter cuidado com arquivos de backup exportados, evitando compartilhamento indevido.</li>
         </ul>
       </article>
 
